@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container my-4">
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-lg shadow-sm rounded-3 mb-4"
+        style="background-color: #e3d5ab"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">MyPortfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="navbar-nav ms-auto"
+              style="font-size: 18px; font-weight: 800"
+            >
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn btn-warning ms-2"
+                  href="#"
+                  style="font-size: 18px; font-weight: 800"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero-section rounded-3 p-5 mb-4">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1 class="fw-bold">
+              Hi, I am
+              <span class="text-primary">Raju Kushwaha</span>!<br />Creative Web
+              Developer
+            </h1>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="image/raju.png" class="hero-img" alt="Profile" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Professional Experience -->
+      <section class="text-center mb-5">
+        <h2 class="fw-bold">Professional Experience</h2>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="stats-box bg-primary">
+              <h1>Certificates</h1>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="stats-box bg-primary">
+              <h1>Projects</h1>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="stats-box bg-warning">
+              <a href="https://leetcode.com/u/Raju_Kushwaha/"
+                ><h1>LeetCodes Platforms</h1></a
+              >
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="stats-box bg-warning">
+              <a href="https://github.com/RajuGoal"><h1>Github</h1></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section class="mb-5">
+        <h2 class="fw-bold text-center">About Me</h2>
+        <div class="row align-items-center mt-4">
+          <div class="col-md-4 text-center">
+            <img src="image/raju.png" class="hero-img" alt="Profile" />
+          </div>
+          <div class="col-md-8">
+            <div
+              class="about-box"
+              style="
+                background-color: #e3b3ab;
+                font-size: 20px;
+                font-weight: 500;
+              "
+            >
+              I’m Raju Kushwaha, a passionate Computer Science Engineering
+              student currently pursuing my B.Tech. I specialize in full-stack
+              web development, with hands-on experience in frontend technologies
+              like HTML, CSS, JavaScript, and React, as well as backend
+              development using Express.js and MongoDB, along with SQL for
+              database management.<br /><br />
+              Beyond academics, I enjoy exploring new frameworks, experimenting
+              with code, and building creative projects that challenge my
+              problem-solving skills. I’m particularly interested in how
+              frontend design and backend logic work together to create seamless
+              digital experiences
+            </div>
+            <div style="font-size: 17px; font-weight: 700">
+              <div class="about-box">
+                Completed 15+ Mini Projects & Internship Training
+              </div>
+              <div class="about-box">
+                Skilled in HTML, CSS, JavaScript, React, SQL,flutter and Java
+              </div>
+              <div class="about-box">
+                Data Mining, DBMS, and Operating Systems
+              </div>
+              <div class="about-box">
+                Backend Development: Node.js, Express.js, MongoDB
+              </div>
+            </div>
+
+            <p class="mt-3">
+              <span> Links:- </span>
+              <a
+                href="https://www.linkedin.com/in/raju-kushwaha-667834353/"
+                target="_blank"
+                class="me-3 text-decoration-none text-dark"
+              >
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/mafiya.raju.16"
+                target="_blank"
+                class="me-3 text-decoration-none text-dark"
+              >
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/rajukushwaha1509/"
+                target="_blank"
+                class="text-decoration-none text-dark"
+              >
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <form
+        action="https://formspree.io/f/xwpnebwe"
+        method="POST"
+        class="row g-3 justify-content-center p-4 rounded shadow-lg"
+        style="
+          max-width: 1280px;
+          margin: 50px auto;
+          background: #25a5be;
+          padding: 30px;
+          border-radius: 50px;
+        "
+      >
+        <h3 class="text-center mb-4" style="color: #333; font-weight: bold">
+          Contact Me
+        </h3>
+
+        <div class="col-12">
+          <label
+            for="name"
+            class="form-label"
+            style="font-size: 25px; font-weight: 800"
+            >Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            required
+            style="
+              border-radius: 8px;
+              padding: 10px;
+              width: 100%;
+              font-weight: 700;
+            "
+          />
+        </div>
+
+        <div class="col-12">
+          <label
+            for="email"
+            class="form-label"
+            style="font-size: 25px; font-weight: 800"
+            >Email</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+            style="border-radius: 8px; padding: 10px; width: 100%"
+          />
+        </div>
+
+        <div class="col-12">
+          <label
+            for="message"
+            class="form-label"
+            style="font-size: 25px; font-weight: 800"
+            >Message</label
+          >
+          <textarea
+            class="form-control"
+            id="message"
+            name="message"
+            rows="6"
+            required
+            style="
+              border-radius: 8px;
+              padding: 10px;
+              width: 100%;
+              height: 150px;
+            "
+          ></textarea>
+        </div>
+
+        <div class="col-12 text-center">
+          <button
+            type="submit"
+            class="btn btn-primary px-5 py-2"
+            style="
+              border-radius: 25px;
+              background: linear-gradient(45deg, #6a11cb, #2575fc);
+              border: none;
+              font-size: 16px;
+            "
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+
+      <!-- Footer -->
+      <footer class="text-center">
+        <p>© 2025 Your Name | All Rights Reserved</p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+
+.container my-4 
+{
+  min-height: 100vh;              /* take full screen height */
+  background: #f0f2f8;            /* soft background */
+}
+
+/* Hero Section */
+.hero-section {
+  background: #aee2e2;
+}
+.hero-img {
+  border-radius: 20px;
+  max-width: 220px;
+}
+
+/* Stats */
+.stats-box {
+  border-radius: 15px;
+  padding: 30px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+/* About */
+.about-box {
+  background: #1ceee7;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.mt-3 {
+  font-size: 20px; 
+}
+.mt-3 span{
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+/* CTA */
+.cta-section {
+  background: #d8d8ff;
+  padding: 50px 20px;
+}
+
+
